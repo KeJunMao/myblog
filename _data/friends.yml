@@ -48,6 +48,11 @@
   url: http://www.foamvalue.com
   describe: 暂时还没想好
 
+- name: aiokr
+  image: https://aiokr.github.io/img/avatar.png
+  url: https://aiokr.github.io
+  describe: 知行合一
+
 - name: PDC
   image: https://ooo.0o0.ooo/2017/05/27/59298fa627ed2.jpg
   url: http://pdcicons.ml
