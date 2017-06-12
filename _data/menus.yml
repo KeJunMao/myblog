@@ -1,9 +1,6 @@
 - name: HOME
   url: /
   icon: home
-- name: SEARCH
-  url: /pages/search.html
-  icon: search
 - name: CATEGORY
   url: /pages/category.html
   icon: "&#xe8ee;"
@@ -16,3 +13,5 @@
 - name: ABOUT
   url: /pages/about.html
   icon: "&#xe7fd;"
+- name: navSearch
+  switch: true
