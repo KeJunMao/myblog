@@ -17,5 +17,5 @@ console: # Meng console info
   color: "#fff" # text color
   background: "#448aff" # background color
 
-header: 
+header: # meng header
   switch: true
