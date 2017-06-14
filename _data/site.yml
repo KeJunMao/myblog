@@ -39,3 +39,5 @@ disqus:
 google_analytics: "UA-96199161-3"  # google analytics code
 
 lang: "zh-CN"  # lang
+
+deploy: "coding" # if you used coding pages
