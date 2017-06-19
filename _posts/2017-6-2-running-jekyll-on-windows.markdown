@@ -13,7 +13,7 @@ img: https://ooo.0o0.ooo/2017/06/03/5932ace80eee4.jpg
 
 不过本文是写给不想用 bash 的同学。
 
-{% include warn.html content="如果你使用的是 Ubuntu ，请查看此<a href='https://blog.kejun.space/technology/2017/05/27/how-to-install-jekyll.html' >文章</a>" %}
+如果你使用的是 Ubuntu ，请查看此<a href='https://blog.kejun.space/technology/2017/05/27/how-to-install-jekyll.html' >文章</a>
 
 ## 安装 RubyInstallers
 
@@ -64,7 +64,7 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 ![tu.jpg](https://ooo.0o0.ooo/2017/06/03/5932a82785044.jpg)
 
-{% include note.html content="嗯，几乎和linux下体验差不多。妈妈再也不用担心我的系统是windows啦（雾）" %}
+> 嗯，几乎和linux下体验差不多。妈妈再也不用担心我的系统是windows啦（雾
 
 ## 一键安装
 

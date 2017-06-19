@@ -18,7 +18,7 @@ Jekyll 一个可以将纯文本转换成静态网站的工具。本站正是使�
 3. RubyGems
 4. GCC 和 Make（通过`gcc -v` 和 `make -v` 检查是否已安装）。
 
-{% include note.html content="如果你不知道怎么安装 Ruby，请查看此<a href='https://blog.kejun.space/technology/2017/05/27/how-to-install-rvm.html' >文章</a>" %}
+如果你不知道怎么安装 Ruby，请查看此<a href='https://blog.kejun.space/technology/2017/05/27/how-to-install-rvm.html' >文章</a>
 
 ## 安装 jekyll
 

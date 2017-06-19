@@ -21,7 +21,7 @@ index.html:
 <script src="scripts/main.js"></script>
 ```
 
-{% include tips.html content="将 </script/> 元素放在 HTML 文件底部的原因是，浏览器解析 HTML 似乎按照代码出现的顺序来的。如果 JavaScript被首先读取，它也应该影响下面的 HTML，但有时会出现问题，因为 JavaScript 会在 HTML 之前被加载，如果 JavaScript 代码出现问题则 HTML 不会被加载。所以将 JavaScript 代码放在底部是最好的选择。" %}
+将 </script/> 元素放在 HTML 文件底部的原因是，浏览器解析 HTML 似乎按照代码出现的顺序来的。如果 JavaScript被首先读取，它也应该影响下面的 HTML，但有时会出现问题，因为 JavaScript 会在 HTML 之前被加载，如果 JavaScript 代码出现问题则 HTML 不会被加载。所以将 JavaScript 代码放在底部是最好的选择。
 
 scripts/main.js:
 ```javascript
@@ -38,7 +38,7 @@ maHeading.innerHTML = 'hello, world';
 var myVariables;
 ```
 
-{% include tips.html content="行末的分号表示语句结束；几乎可以以任何名称来命名一个变量；JavaScript 是对大小写敏感的" %}
+行末的分号表示语句结束；几乎可以以任何名称来命名一个变量；JavaScript 是对大小写敏感的
 
 定义的变量可以赋值：
 ```javascript
@@ -82,7 +82,7 @@ function multiply(num1,num2){
 multiply(4,7);
 ```
 
-{% include tips.html content="return 语句告诉浏览器返回 result 变量以便使用。这是很有必要的，因为函数内定义的变量只能在函数内使用。这叫做作用域 scoping " %}
+return 语句告诉浏览器返回 result 变量以便使用。这是很有必要的，因为函数内定义的变量只能在函数内使用。这叫做作用域 scoping
 
 ### 事件
 
