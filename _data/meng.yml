@@ -48,5 +48,5 @@ aplayer:
   music:
     title: 'STYX HELIX'
     author: 'MYTH & ROID'
-    url: 'assets/music/blog.mp3'
+    url: '/assets/music/blog.mp3'
     pic: 'https://p4.music.126.net/zS92B4iboeu50sEkXBeLfA==/1400777824444934.jpg?param=130y130'
