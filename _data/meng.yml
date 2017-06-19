@@ -44,9 +44,16 @@ live2d: # live2d ,see https://github.com/EYHN/hexo-helper-live2d
 
 aplayer:
   switch: true
-  button_color: "#1abc9c"
+  button_color: "#4c8cf2"
   music:
     title: 'STYX HELIX'
     author: 'MYTH & ROID'
     url: '/assets/music/blog.mp3'
     pic: 'https://p4.music.126.net/zS92B4iboeu50sEkXBeLfA==/1400777824444934.jpg?param=130y130'
+
+head_card:
+  switch: true
+  left_img: "https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg"
+  left_text: "『 · 如果真爱有颜色 』"
+  right_img: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png"
+  offset_level: 2
