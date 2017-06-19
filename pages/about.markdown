@@ -21,7 +21,7 @@ KeJun
 
 ```yml
 昵称：KeJun
-网址：https://kejun.space
+网址：https://kejun.me
 头像url：https://ooo.0o0.ooo/2017/03/14/58c775b701fd8.png
 网站简介： 二次元智障
 ```
