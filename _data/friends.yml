@@ -1,5 +1,5 @@
 - name: MDUI
-  image: 
+  image: "https://dummyimage.com/40x40/ffffff/000000&text=MDUI"
   url: https://www.mdui.org/
   describe: 一套用于开发 Material Design 网页的前端框架
 
@@ -39,12 +39,12 @@
   describe: 6sheep, to be different.
 
 - name:  Elias's Cave
-  image: http://meniny.cn/assets/images/icons/Chair/logo.png
+  image: https://ooo.0o0.ooo/2017/06/21/594a20944a435.png
   url: http://meniny.cn
   describe: A Developer's Faux Pas
 
 - name: FoamValue
-  image: http://www.foamvalue.com/favicon.ico
+  image: https://dummyimage.com/40x40/ffffff/000000&text=FV
   url: http://www.foamvalue.com
   describe: 暂时还没想好
 
@@ -74,7 +74,7 @@
   describe: 零落成泥碾作尘，只有香如故！
 
 - name: 陶小白的日常博客
-  image: http://i1.piimg.com/1949/6fd7f4795dd5c99d.jpg
+  image: https://ooo.0o0.ooo/2017/06/21/594a21ad25de9.png
   url: www.taoxiaobaiserver.cn
   describe: 辣鸡的日常
 
@@ -89,7 +89,7 @@
   describe: 安静的做一个分享记录小站
 
 - name: Ezs
-  image: 
+  image: https://dummyimage.com/40x40/ffffff/000000&text=Ezs
   url: http://ezs.me/
   describe: 
 
