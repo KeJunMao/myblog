@@ -46,10 +46,10 @@ aplayer:
   switch: true
   button_color: "#4c8cf2"
   music:
-    title: 'STYX HELIX'
-    author: 'MYTH & ROID'
+    title: '恋爱サーキュレーション'
+    author: '花澤香菜'
     url: '/assets/music/blog1.mp3'
-    pic: 'https://p4.music.126.net/zS92B4iboeu50sEkXBeLfA==/1400777824444934.jpg?param=130y130'
+    pic: 'http://p4.music.126.net/hWrYLdhzF4waj4WL1dFPmg==/642114790633458.jpg?param=130y130'
 
 head_card:
   switch: true
