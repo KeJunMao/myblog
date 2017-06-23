@@ -31,5 +31,5 @@ img: https://ooo.0o0.ooo/2017/05/30/592d41ed710a5.jpg
 
 [demo](https://blog.kejun.space/pages/editor.html)
 
-![](https://ooo.0o0.ooo/2017/05/30/592d4280948fb.jpg)
+![](https://ooo.0o0.ooo/2017/06/23/594cfd1144fa2.png)
 
