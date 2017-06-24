@@ -60,6 +60,21 @@ img: https://ooo.0o0.ooo/2017/05/27/5929360544b21.jpg
 ```
 {% endraw %}
 
+## 计算文章阅读时间
+
+来源：[leonids/_includes/read_time.html](https://github.com/renyuanz/leonids/blob/dfdd3fd5e159b3254be03293516c163f3f62e12e/_includes/read_time.html)
+
+{% raw %}
+```
+{% assign words = content | number_of_words %}
+{% if words < 360 %}
+  1 min read
+{% else %}
+  {{ words | divided_by:180 }} mins read
+{% endif %}
+```
+{% endraw %}
+
 ## 有用的站点
 
 * [Jekyll/Liquid API 语法文档](http://alfred-sun.github.io/blog/2015/01/10/jekyll-liquid-syntax-documentation/)
