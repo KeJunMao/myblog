@@ -17,7 +17,7 @@ https://github.com/rvm/ubuntu_rvm
 
 ## RVM 安装
 
-```shell
+```bash
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 \curl -sSL https://get.rvm.io | bash -s stable
 source ~/.bashrc
@@ -27,7 +27,7 @@ source ~/.bash_profile
 
 修改 RVM 的 Ruby 安装源到 Ruby China 的 [Ruby 镜像服务器](https://cache.ruby-china.org/)，这样能提高安装速度。
 
-```shell
+```bash
 echo "ruby_url=https://cache.ruby-china.org/pub/ruby" > ~/.rvm/user/db
 ```
 
@@ -35,13 +35,13 @@ echo "ruby_url=https://cache.ruby-china.org/pub/ruby" > ~/.rvm/user/db
 
 列出已知的 Ruby 版本
 
-```shell
+```bash
 rvm list known
 ```
 
 我们会看到输出了：
 
-```shell
+```bash
 # MRI Rubies
 [ruby-]1.8.6[-p420]
 [ruby-]1.8.7[-head] # security released on head
@@ -61,7 +61,7 @@ ruby-head
 
 安装一个 Ruby 版本
 
-```shell
+```bash
 rvm install 2.4.0
 ```
 
@@ -69,25 +69,25 @@ rvm install 2.4.0
 
 切换 Ruby 版本
 
-```shell
+```bash
 rvm use 2.4.0
 ```
 
 如果想设置为默认版本，这样一来以后新打开的控制台默认的 Ruby 就是这个版本
 
-```shell
+```bash
 rvm use 2.4.0 --default
 ```
 
 查询已经安装的ruby
 
-```shell
+```bash
 rvm list
 ```
 
 此时，输入`ruby -v`就会看到类似如下输出：
 
-```shell
+```bash
 ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
 ```
 

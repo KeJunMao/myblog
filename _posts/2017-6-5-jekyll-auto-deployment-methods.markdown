@@ -31,7 +31,7 @@ root@server$ adduser git
 
 授与无需密码操作的权限
 
-```shell
+```bash
 root@server$ sudo vim /etc/sudoers
 ```
 
@@ -41,7 +41,7 @@ root@server$ sudo vim /etc/sudoers
 
 授予操作 nginx 放网页的地方的权限
 
-```shell
+```bash
 root@server$ cd /var/www
 root@server$ mkdir jekyll
 root@server$ chown git:git -R /var/www/jekyll
@@ -49,7 +49,7 @@ root@server$ chown git:git -R /var/www/jekyll
 
 ## 配置Hooks
 
-```shell
+```bash
 root@server$ su git
 git@server$ cd ~
 git@server$ mkdir jekyll.git
@@ -75,7 +75,7 @@ exit
 ```
 最后授予执行权限
 
-```shell
+```bash
 git@server$ chmod +x hooks/post-receive
 ```
 
@@ -91,7 +91,7 @@ git@server$ chmod +x hooks/post-receive
 
 首先打开你**本地机器**的`git bash` 输入：
 
-```shell
+```bash
 localhost$ ssh-keygen -t rsa
 localhost$ vim ~/.ssh/id_rsa.pub
 "*yy
@@ -100,7 +100,7 @@ localhost$ vim ~/.ssh/id_rsa.pub
 
 继续**返回到服务器**（git用户）。
 
-```shell
+```bash
 git@server$ cd ~
 git@server$ mkdir .ssh && cd .ssh
 git@server$ touch authorized_keys
@@ -112,7 +112,7 @@ git@server$ vim authorized_keys
 
 如果你vps的端口不是22，那么在**本地机器**：
 
-```shell
+```bash
 localhost$ vim ~/.ssh/config
 ```
 输入,并调整为你vps的信息：
@@ -129,13 +129,13 @@ IdentityFile ~/.ssh/id_rsa
 
 在你**本地机器的博客仓库**中添加一个远程仓库：
 
-```shell
+```bash
 localhost$ git remote add www git@yourvpsip:~/jekyll.git
 ```
 
 现在，每次发布新文章只要`push`即可~
 
-```shell
+```bash
 localhost$ git push www master
 ```
 

@@ -22,7 +22,7 @@ Jekyll 一个可以将纯文本转换成静态网站的工具。本站正是使�
 
 ## 安装 jekyll
 
-```shell
+```bash
 # Install Jekyll and Bundler gems through RubyGems
 ~ $ gem install jekyll bundler
 

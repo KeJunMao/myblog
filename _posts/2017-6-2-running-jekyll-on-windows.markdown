@@ -26,7 +26,7 @@ img: https://ooo.0o0.ooo/2017/06/03/5932ace80eee4.jpg
 
 打开cmd窗口，键入如下：
 
-```
+```bash
 gem install bundler jekyll
 ```
 
@@ -36,25 +36,25 @@ gem install bundler jekyll
 
 新建博客：
 
-```shell
+```bash
 jekyll new blog
 ```
 
 使用`cd blog`进入`blog`文件夹并安装依赖：
 
-```
+```bash
 bundle install
 ```
 
 运行：
 
-```
+```bash
 jekyll s -w
 ```
 
 如果出现
 
-```
+```bash
 Please add the following to your Gemfile to avoid polling for changes:
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 ```
