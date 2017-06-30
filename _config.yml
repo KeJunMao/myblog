@@ -9,7 +9,7 @@ paginate_path: "/blog/page:num/"
 
 markdown: kramdown
 theme: jekyll-theme-mdui
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
