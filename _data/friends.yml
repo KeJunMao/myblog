@@ -49,7 +49,7 @@
   describe: 暂时还没想好
 
 - name: aiokr
-  image: https://aiokr.github.io/img/avatar.png
+  image: https://dummyimage.com/40x40/ffffff/000000&text=Aiokr
   url: https://aiokr.github.io
   describe: 知行合一
 
