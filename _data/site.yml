@@ -30,7 +30,7 @@ sns_share: # SNS Share Switch
    telegram: true
 
 comment:
-  used: "livere" # disqus,livere
+  used: "livere" # disqus,livere,gitment
   # disqus config
   disqus_shortname: "kejun" # Your disqus 
   disqus_button: true # disqus load button
@@ -40,6 +40,11 @@ comment:
   # livere config
   livere_type: 'city'
   livere_data_uid: 'MTAyMC8yOTM5Ni81OTY0'
+  # gitment config
+  owner: ""
+  repo: ""
+  client_id: ""
+  client_secret: ""
   
 prism:
   themes: prism-okaidia
