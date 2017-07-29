@@ -1,6 +1,11 @@
 {
   "name": "KeJun BLOG",
   "short_name": "KeJun",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#2a7ae2",
+  "Scope": "/",
   "icons": [{
         "src": "assets/images/touch/icon-128x128.png",
         "sizes": "128x128",
@@ -21,9 +26,5 @@
         "src": "assets/images/touch/kejun.png",
         "sizes": "512x512",
         "type": "image/png"
-      }],
-  "start_url": "/index.html?homescreen=1",
-  "display": "standalone",
-  "background_color": "#fdfdfd",
-  "theme_color": "#2a7ae2"
+      }]
 }
