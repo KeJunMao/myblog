@@ -1,8 +1,9 @@
 ---
-layout: compress
+
 ---
 var cacheName = 'madhur-cache-v1';
 var filesToCache = [
+    '/index.html',
     {% for page in site.pages %}
         {% if page.url contains 'projects' or page.url contains '404'   %}
             
