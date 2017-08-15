@@ -45,7 +45,10 @@ comment:
   repo: ""
   client_id: ""
   client_secret: ""
-  
+  #valine config
+  valine_app_id: ''
+  valine_app_key: ''
+  valine_placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!"
 prism:
   themes: prism-okaidia
   components: 
@@ -58,3 +61,7 @@ google_analytics: "UA-96199161-3"  # google analytics code
 lang: "zh-CN"  # lang
 
 deploy: "coding" # if you used coding pages
+
+custom_css: "css.css" # Use the assets/css/customCss.css
+
+custom_js: "js.js" # Use the assets/js/customJS.js

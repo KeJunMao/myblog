@@ -44,7 +44,6 @@ var CACHE_NAME = 'james-ives-cache-v1';
 {% endfor %}
 
 // Cache name: adjust version number to invalidate service worker cachce.
-var CACHE_NAME = 'james-ives-full-stack-web-developer-cache-v7';
 
 self.addEventListener('install', function(event) {
   // Perform install steps
@@ -54,23 +53,30 @@ self.addEventListener('install', function(event) {
     console.log('Cache add error: ', err);
   }));
 });
-
 self.addEventListener('fetch', function(event) {
   event.respondWith(
-    caches.open(CACHE_NAME).then(function(cache) {
-      return cache.match(event.request).then(function(response) {
-        return response || fetch(event.request).then(function(response) {
-          cache.put(event.request, response.clone());
+    caches.match(event.request)
+      .then(function(response) {
+        if (response) {
           return response;
-        });
-      });
-    }).catch(function() {
-      // Fallback to the offline page if not available in the cache.
-      return caches.match('/offline.html');
-    })
-  );
+        }
+        var fetchRequest = event.request.clone();
+        return fetch(fetchRequest).then(
+          function(response) {
+            if(!response || response.status !== 200 || response.type !== 'basic') {
+              return response;
+            }
+            var responseToCache = response.clone();
+            caches.open(CACHE_NAME)
+              .then(function(cache) {
+                cache.put(event.request, responseToCache);
+              });
+            return response;
+          }
+        );
+      })
+    );
 });
-
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.open(CACHE_NAME).then(function(cache) {
