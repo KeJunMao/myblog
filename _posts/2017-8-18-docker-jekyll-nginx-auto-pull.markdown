@@ -268,11 +268,11 @@ CMD node index.js
 
 这里我们在容器里安装了 `git`
 
-返回 `workspace` 并创建 `docker-compose.yml` :
+返回 `workspace` 并修改 `docker-compose.yml` :
 
 ```bash
 # 这个时候的工作目录是在 workspace ！
-vim Dockerfile 
+vim docker-compose.yml 
 ```
 
 修改为：
@@ -351,4 +351,4 @@ jekyll_1    |       Regenerating: 1 file(s) changed at 2017-08-18 07:43:04 ...do
 docker-compose up -d
 ```
 
-在后台运行 docker ，享受高枕无忧
+在后台运行 docker ，享受高枕无忧。
