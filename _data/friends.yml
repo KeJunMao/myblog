@@ -64,7 +64,7 @@
   describe: Naive少年
 
 - name: Little_Qiu
-  image: https://cos.littleservice.cn/blog/dc3bba42.jpg
+  image: https://dummyimage.com/40x40/ffffff/000000&text=LQ
   url: https://www.littleqiu.net
   describe: 一个什么都会一点但是也只会一点的渣渣。
 
@@ -107,3 +107,13 @@
   image: https://ooo.0o0.ooo/2017/06/27/5951c38b7699a.jpg
   url: https://blog.mana.love
   describe: 爱菜、爱菜、爱菜
+
+- name: movooer
+  image: https://s.gravatar.com/avatar/02965df580b7deca3037bc26c3a85d15?s=80
+  url: https://mvooer.me/
+  describe: Reading Writing Thinking
+
+- name: 只有一秒的记忆
+  image: https://zz-static.b0.upaiyun.com/img/youlian.png
+  url: https://blog.asec01.net/
+  describe:  …长者？智障
