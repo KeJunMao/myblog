@@ -101,7 +101,7 @@ HKEY_LOCAL_MACHINE >> SOFTWARE >> Microsoft >> Windows NT >> CurrentVersion >> C
 
 新建一个 `Ttheme.cfg` 文件，并键入如下内容：
 
-```bash
+```json
 {
     "cursor_size":  "small",
     "command_history_length":  50,

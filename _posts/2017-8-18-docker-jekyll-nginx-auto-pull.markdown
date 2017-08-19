@@ -39,7 +39,7 @@ vim Dockerfile
 ```
 输入：
 
-```bash
+```docker
 FROM nginx
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 ```
@@ -128,7 +128,7 @@ vim Dockerfile
 
 输入：
 
-```bash
+```docker
 FROM jekyll/jekyll
 CMD jekyll build -w
 ```
@@ -255,7 +255,7 @@ console.log("Server runing at port: " + config.port + ".");
 
 新建 `Dockerfile` ：
 
-```bash
+```docker
 FROM node:6-alpine
 ENV NODE_ENV production
 RUN apk update && apk upgrade && \

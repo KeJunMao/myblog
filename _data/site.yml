@@ -54,6 +54,10 @@ prism:
   components: 
     - bash 
     - apacheconf
+    - yaml
+    - json
+    - docker
+    - nginx
   plugins: 
 
 google_analytics: "UA-96199161-3"  # google analytics code
