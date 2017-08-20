@@ -80,7 +80,7 @@ mkdir conf.d
 
 ```bash
 # 这个时候的工作目录是在 workspace ！
-vim Dockerfile 
+vim docker-compose.yml 
 ```
 
 输入以下内容：
