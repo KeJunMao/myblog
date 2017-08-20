@@ -352,3 +352,28 @@ docker-compose up -d
 ```
 
 在后台运行 docker ，享受高枕无忧。
+
+补充一下文件树：
+
+```tree
+├── autopull
+│   ├── config.js
+│   ├── Dockerfile
+│   ├── index.js
+│   └── package.json
+├── docker-compose.yml
+├── jekyll
+│   └── Dockerfile
+├── nginx
+│   ├── conf.d
+│   │   └── homepage.conf
+│   ├── default.conf
+│   └── Dockerfile
+└── site
+    ├── data
+    │   ├── homepage
+        │   └── ...
+    │   └── index.html
+    └── source
+        └── ...
+```
