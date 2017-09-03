@@ -75,7 +75,7 @@
 
 - name: 陶小白的日常博客
   image: https://ooo.0o0.ooo/2017/06/21/594a21ad25de9.png
-  url: www.taoxiaobaiserver.cn
+  url: http://www.taoxiaobaiserver.cn
   describe: 辣鸡的日常
 
 - name: Flyfish
@@ -117,3 +117,8 @@
   image: https://zz-static.b0.upaiyun.com/img/youlian.png
   url: https://blog.asec01.net/
   describe:  …长者？智障
+
+- name: ENDsoft's Blog
+  image: https://secure.gravatar.com/avatar/40e5a874eb73888a7fff7f1beb011379?s=80&d=wavatar&r=g
+  url: https://www.r-ay.cn
+  describe:  勿忘初心 方得始终
