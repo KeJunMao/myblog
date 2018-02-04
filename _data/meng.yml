@@ -1,5 +1,5 @@
 title:  # Meng title
-  switch: true # Meng title switch
+  switch: false # Meng title switch
   visible: "(*´∇｀*) 被发现啦~" # State is visible text
   hidden:  "(つェ⊂)看不到我~" # State is hidden text
   with_default_title: true # with default title
@@ -43,7 +43,7 @@ live2d: # live2d ,see https://github.com/EYHN/hexo-helper-live2d
   offset: 10 # offset
 
 music_player:
-  player: "aplayer" #cplayer or aplayer
+  player: "" #cplayer or aplayer
   button_color: "#4c8cf2"
   music:
     title: '恋爱サーキュレーション'
@@ -54,6 +54,6 @@ music_player:
 head_card:
   switch: true
   left_img: "https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg"
-  left_text: "『 如果真爱有颜色 』"
+  left_text: "如果真爱有颜色"
   right_img: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png"
   offset_level: 2

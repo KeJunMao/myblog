@@ -23,10 +23,10 @@
   url: https://nfz.moe/
   describe: 拾穗者的故事
 
-- name: 滑稽
-  image: https://q1.qlogo.cn/headimg_dl?bs=1106996185&dst_uin=1106996185&spec=100&url_enc=0&referer=bu_interface&term_type=PC
-  url: https://huaji8.top
-  describe: 拼命想抓住一些东西
+# - name: 滑稽
+#   image: https://q1.qlogo.cn/headimg_dl?bs=1106996185&dst_uin=1106996185&spec=100&url_enc=0&referer=bu_interface&term_type=PC
+#   url: https://huaji8.top
+#   describe: 拼命想抓住一些东西
 
 - name:  冰凌胧月的后宫
   image: https://cdn.moe0pic.moe0.cn/avatar.png
@@ -53,14 +53,14 @@
   url: https://aiokr.github.io
   describe: 知行合一
 
-- name: PDC
-  image: https://ooo.0o0.ooo/2017/05/27/59298fa627ed2.jpg
-  url: http://pdcicons.ml
-  describe: 不会开发的开发者
+# - name: PDC
+#   image: https://ooo.0o0.ooo/2017/05/27/59298fa627ed2.jpg
+#   url: http://pdcicons.ml
+#   describe: 不会开发的开发者
 
 - name: Mysaku
   image: https://ooo.0o0.ooo/2017/05/27/59298f4a24dd2.jpg
-  url: http://miku01qaq.xyz
+  url: https://blog.mysaku.pw
   describe: Naive少年
 
 - name: Little_Qiu
@@ -68,50 +68,50 @@
   url: https://www.littleqiu.net
   describe: 一个什么都会一点但是也只会一点的渣渣。
 
-- name: 南山梓人
-  image: https://ooo.0o0.ooo/2017/05/28/592a95732197c.jpg
-  url: http://rundeep.tech/
-  describe: 零落成泥碾作尘，只有香如故！
+# - name: 南山梓人
+#   image: https://ooo.0o0.ooo/2017/05/28/592a95732197c.jpg
+#   url: http://rundeep.tech/
+#   describe: 零落成泥碾作尘，只有香如故！
 
 - name: 陶小白的日常博客
   image: https://ooo.0o0.ooo/2017/06/21/594a21ad25de9.png
   url: http://www.taoxiaobaiserver.cn
   describe: 辣鸡的日常
 
-- name: Flyfish
-  image: https://secure.gravatar.com/userimage/122386544/7d18980b55abdf0a7f2f8d066c4b2f46.jpg?size=64
-  url: https://flyfish233.com
-  describe: Flyfish Studio
+# - name: Flyfish
+#   image: https://secure.gravatar.com/userimage/122386544/7d18980b55abdf0a7f2f8d066c4b2f46.jpg?size=64
+#   url: https://flyfish233.com
+#   describe: Flyfish Studio
 
 - name: 默趣小站
   image: https://ooo.0o0.ooo/2017/06/15/59428470d7082.png
   url: https://www.mocurio.com
   describe: 安静的做一个分享记录小站
 
-- name: Ezs
-  image: https://dummyimage.com/40x40/ffffff/000000&text=Ezs
-  url: http://ezs.me/
-  describe: 
+# - name: Ezs
+#   image: https://dummyimage.com/40x40/ffffff/000000&text=Ezs
+#   url: http://ezs.me/
+#   describe: 
 
 - name: 某猫
-  image: https://moumao.moumaobuchiyu.com/images/header.jpg
+  image: https://dummyimage.com/40x40/ffffff/000000&text=Cat
   url: https://www.moumaobuchiyu.com/
   describe: 欢迎来到我的小窝
 
-- name: 贫穷的蚊子
-  image: https://qwq.moe/content/images/2017/02/avatar.png
-  url: https://qwq.moe/
-  describe: 每天早上被穷醒是怎样一种体验？
+# - name: 贫穷的蚊子
+#   image: https://gravatar.cat.net/avatar/93f5d0e297fe1c30eb4cf540e214523a?s=100&r=X&d=mm
+#   url: https://qwq.moe/
+#   describe: 每天早上被穷醒是怎样一种体验？
 
 - name: 爱菜家希望之神小飞鸟
   image: https://ooo.0o0.ooo/2017/06/27/5951c38b7699a.jpg
   url: https://blog.mana.love
   describe: 爱菜、爱菜、爱菜
 
-- name: movooer
-  image: https://s.gravatar.com/avatar/02965df580b7deca3037bc26c3a85d15?s=80
-  url: https://mvooer.me/
-  describe: Reading Writing Thinking
+# - name: movooer
+#   image: https://s.gravatar.com/avatar/02965df580b7deca3037bc26c3a85d15?s=80
+#   url: https://mvooer.me/
+#   describe: Reading Writing Thinking
 
 - name: 只有一秒的记忆
   image: https://zz-static.b0.upaiyun.com/img/youlian.png
@@ -125,5 +125,10 @@
 
 - name: Lyle-za
   image: http://www.lyle-za.cn/assets/favicon.ico
-  url: https://lyle-za.cn
+  url: https://www.lyle-za.cn
   describe: Lyle-za Blog
+
+- name: 龙腾云端
+  image: https://i.loli.net/2018/02/04/5a770173ebca0.jpg
+  url: https://blog.dcloud.store/
+  describe: 龙腾云端 Blog
