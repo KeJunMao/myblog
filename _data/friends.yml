@@ -29,12 +29,12 @@
 #   describe: 拼命想抓住一些东西
 
 - name:  冰凌胧月的后宫
-  image: https://cdn.moe0pic.moe0.cn/avatar.png
+  image: https://dummyimage.com/40x40/ffffff/000000&text=ICE
   url: https://imiku.me
   describe: Welcome to disturb
 
 - name:  Szhshp
-  image: https://ooo.0o0.ooo/2017/05/28/592aad242c44a.png
+  image: https://i.loli.net/2018/04/13/5ad045fb009bd.png
   url: http://szhshp.org/
   describe: 6sheep, to be different.
 
@@ -124,7 +124,7 @@
   describe:  勿忘初心 方得始终
 
 - name: Lyle-za
-  image: http://www.lyle-za.cn/assets/favicon.ico
+  image: https://dummyimage.com/40x40/ffffff/000000&text=Lyle-za
   url: https://www.lyle-za.cn
   describe: Lyle-za Blog
 
@@ -132,3 +132,8 @@
   image: https://i.loli.net/2018/02/04/5a770173ebca0.jpg
   url: https://blog.dcloud.store/
   describe: 龙腾云端 Blog
+
+- name: 青空之蓝
+  image: https://i.loli.net/2018/04/13/5ad046c61b130.png
+  url: https://syfxlin.win/
+  describe: 站在时光一端，翻阅过往岁月
